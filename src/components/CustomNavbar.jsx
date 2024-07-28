@@ -12,7 +12,7 @@ import {
   Button,
   Image,
 } from "@nextui-org/react";
-// import {makersLogo} from "@/images/makers_tech_logo.png"
+
 const CustomNavbar = () => {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
   const menuItems = ["Home", "Shop", "About Us", "Our Networks"];

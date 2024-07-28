@@ -5,7 +5,7 @@ ShopMate has 5 main features:
 
 - Provide real-time inventory through a personalized conversation.
 - Assist in technical issues with products.
-- Access comprehensive details about available products to make informed decisions.
+- Provide comprehensive details about available products to allow the customer to make informed decisions.
 - Give custom recommendations based on the customer needs.
 - Assist in order tracking.
 

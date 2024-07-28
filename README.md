@@ -1,4 +1,4 @@
-## The project
+## About the project
 
 Showcase of an ecommerce chatbot called ⚡ ShopMate ⚡. \
 ShopMate has 5 main features:
@@ -18,7 +18,7 @@ Understanding that navigating tech products and tracking orders can be challengi
 Developed by **Daniel Fuentes Ensuncho** and **David Steven Solís Avilés**. \
 Check out the deployed project at [https://makers-tech-front.vercel.app/](https://makers-tech-front.vercel.app/).
 
-## Getting Started
+## Dev information
 First, install all dependencies:
 
 ```bash

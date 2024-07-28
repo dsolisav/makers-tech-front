@@ -28,15 +28,13 @@ export default function RootLayout({ children }) {
                   var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
                   v.onload = function() {
                     window.voiceflow.chat.load({
-                      verify: { projectID: '66a670b7f3295f26fd652d89' },
+                      verify: { projectID: '66a5baf3256cb7780dd4ef6b' },
                       url: 'https://general-runtime.voiceflow.com',
                       versionID: 'production'
                     });
                   }
-                  v.src = "https://cdn.voiceflow.com/widget/bundle.mjs"; 
-                  v.type = "text/javascript"; 
-                  s.parentNode.insertBefore(v, s);
-                })(document, 'script');
+                  v.src = "https://cdn.voiceflow.com/widget/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
+              })(document, 'script');
               `,
             }}
           />

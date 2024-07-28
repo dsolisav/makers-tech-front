@@ -17,17 +17,19 @@ const CustomNavbar = () => {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
   const menuItems = ["Home", "Shop", "About Us", "Our Networks"];
   return (
-    <div >
-      <Navbar onMenuOpenChange={setIsMenuOpen} position="sticky" isBordered  className="p-2 ">
+    <div>
+      <Navbar
+        onMenuOpenChange={setIsMenuOpen}
+        position="sticky"
+        isBordered
+        className="p-2 "
+      >
         <NavbarMenuToggle
           aria-label={isMenuOpen ? "Close menu" : "Open menu"}
           className="sm:hidden"
         />
         <NavbarBrand>
-          <Link>
-            <Image href="#" src="/images/makers_tech_logo.png" width={150} />
-          </Link>
-          
+          <Image href="#" src="/images/makers_tech_logo.png" width={150} />
         </NavbarBrand>
         <NavbarContent className="hidden sm:flex gap-4" justify="center">
           <NavbarItem>
@@ -45,7 +47,7 @@ const CustomNavbar = () => {
           </NavbarItem>
         </NavbarContent>
         <NavbarContent justify="end" className="gap-5">
-          <NavbarItem >
+          <NavbarItem>
             <Link href="#">
               <Image
                 src="/images/facebookImage.png"
@@ -54,7 +56,7 @@ const CustomNavbar = () => {
               />
             </Link>
           </NavbarItem>
-          <NavbarItem >
+          <NavbarItem>
             <Link href="#">
               <Image
                 src="/images/linkedinImage.png"
@@ -63,7 +65,7 @@ const CustomNavbar = () => {
               />
             </Link>
           </NavbarItem>
-          <NavbarItem >
+          <NavbarItem>
             <Link href="#">
               <Image
                 src="/images/twitterImage.png"
@@ -76,12 +78,7 @@ const CustomNavbar = () => {
         <NavbarMenu>
           {menuItems.map((item, index) => (
             <NavbarMenuItem key={`${item}-${index}`}>
-              <Link
-                color="foreground"
-                className="w-full"
-                href="#"
-                size="lg"
-              >
+              <Link color="foreground" className="w-full" href="#" size="lg">
                 {item}
               </Link>
             </NavbarMenuItem>

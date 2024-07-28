@@ -18,13 +18,16 @@ const CustomNavbar = () => {
   const menuItems = ["Home", "Shop", "About Us", "Our Networks"];
   return (
     <div >
-      <Navbar onMenuOpenChange={setIsMenuOpen} position="sticky"  className="p-2">
+      <Navbar onMenuOpenChange={setIsMenuOpen} position="sticky" isBordered  className="p-2 ">
         <NavbarMenuToggle
           aria-label={isMenuOpen ? "Close menu" : "Open menu"}
           className="sm:hidden"
         />
         <NavbarBrand>
-          <Image src="/images/makers_tech_logo.png" width={150} />
+          <Link>
+            <Image href="#" src="/images/makers_tech_logo.png" width={150} />
+          </Link>
+          
         </NavbarBrand>
         <NavbarContent className="hidden sm:flex gap-4" justify="center">
           <NavbarItem>
